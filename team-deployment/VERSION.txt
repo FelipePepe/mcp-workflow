@@ -1,0 +1,21 @@
+Skills & MCP Servers Deployment Package
+========================================
+
+Fecha: 2026-04-28 20:54:58
+Usuario: sandman
+Hostname: sandmanPC
+
+Contenido:
+----------
+Project Skills: 11
+User Skills: 23
+Total Skills: 34
+
+Servidores MCP:
+- skills-reader-mcp
+
+Instrucciones:
+--------------
+Linux:   bash scripts/install-linux.sh
+Windows: powershell -ExecutionPolicy Bypass -File scripts\install-windows.ps1
+

@@ -1,0 +1,19 @@
+{
+  "name": "skills-reader-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server para leer skills/agentes para Ollama en VSCode",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
